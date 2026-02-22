@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+app.db
+runtime/*
+!runtime/.gitkeep
+logs/*
+!logs/.gitkeep
