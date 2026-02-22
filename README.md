@@ -3,7 +3,7 @@
 MVP Telegram-бот для обучения программированию: лекции, задачи, прогресс и базовая проверка ответов.
 
 ## Стек
-- Python 3.11+
+- Python 3.13
 - aiogram 3.x
 - SQLite (sqlite3)
 - JSON (lessons/tasks content)
@@ -19,11 +19,11 @@ MVP Telegram-бот для обучения программированию: л
 ## Структура проекта
 ```text
 .
-├─ app/                  # (если у тебя есть app-модуль)
-├─ handlers/             # navigation / solve handlers
-├─ checkers/             # checker_text.py / checker_code.py
-├─ content/              # lessons.json / tasks.json
-├─ runtime/              # bot.db, временные файлы
+├─ app/                
+├─ handlers/             
+├─ checkers/            
+├─ content/              
+├─ runtime/              
 ├─ .env.example
 ├─ requirements.txt
 └─ README.md
